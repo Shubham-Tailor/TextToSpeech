@@ -46,28 +46,28 @@ function changeVoice(voice) {
     speech.voice = speechSynthesis.getVoices()[8];
   } else if (voice == "voice2") {
     // console.log((speech.voice = speechSynthesis.getVoices()[0]));
-    speech.voice = speechSynthesis.getVoices()[0];
+    speech.voice = speechSynthesis.getVoices()[2];
   } else if (voice == "voice3") {
     // console.log((speech.voice = speechSynthesis.getVoices()[1]));
     speech.voice = speechSynthesis.getVoices()[1];
   } else if (voice == "voice4") {
     // console.log((speech.voice = speechSynthesis.getVoices()[11]));
-    speech.voice = speechSynthesis.getVoices()[11];
+    speech.voice = speechSynthesis.getVoices()[22];
   } else if (voice == "voice5") {
     // console.log((speech.voice = speechSynthesis.getVoices()[12]));
-    speech.voice = speechSynthesis.getVoices()[12];
+    speech.voice = speechSynthesis.getVoices()[41];
   } else if (voice == "voice6") {
     // console.log((speech.voice = speechSynthesis.getVoices()[18]));
-    speech.voice = speechSynthesis.getVoices()[18];
+    speech.voice = speechSynthesis.getVoices()[25];
   } else if (voice == "voice7") {
     // console.log((speech.voice = speechSynthesis.getVoices()[33]));
-    speech.voice = speechSynthesis.getVoices()[33];
+    speech.voice = speechSynthesis.getVoices()[25];
   } else if (voice == "voice8") {
     // console.log((speech.voice = speechSynthesis.getVoices()[37]));
-    speech.voice = speechSynthesis.getVoices()[37];
+    speech.voice = speechSynthesis.getVoices()[19];
   } else if (voice == "voice9") {
     // console.log((speech.voice = speechSynthesis.getVoices()[41]));
-    speech.voice = speechSynthesis.getVoices()[41];
+    speech.voice = speechSynthesis.getVoices()[12];
   }
 
   // for (let i = 0; i < 100; i++) {
